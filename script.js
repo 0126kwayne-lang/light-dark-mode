@@ -1,0 +1,13 @@
+const themeSwitch= document.getElementById ("theme-switch");
+const body= document.body;
+
+//Load saved theme
+if (localStorage.getItem("theme") --- "dark") {
+body.classList.add("dark");
+themeSwitch.checked = true;
+}
+
+// Toggle theme on switch change
+themeSwitch. addEventListener ("change",() =>{
+    
+}
